@@ -8,10 +8,10 @@ const PostContainer2 = () => {
   return (
     <div>
       <div className="post__list">
-        {isLoading && <h1>Loading .....</h1>}
+        {/* {isLoading && <h1>Loading .....</h1>}
         {error && <h1>Error occur</h1>}
         {posts?.map((post) => 
-        <PostItem post={post} key={post.id}/>)}
+        <PostItem post={post} key={post.id}/>)} */}
       </div>
     </div>
   );
